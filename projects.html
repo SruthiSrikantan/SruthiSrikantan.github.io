@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+        }
+        .header {
+    display: flex;
+    justify-content: center;  /* Center all the links */
+    align-items: center;      /* Align items vertically */
+    background-color: #f5dee1; /* Light background for header */
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+}
+
+/* Style each link */
+    .header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    padding: 14px 20px; /* Adds some padding around the text */
+    transition: color 0.3s;
+}
+
+/* Add space between links */
+    .header a:not(:last-child) {
+    margin-right: 40px; /* Space between links */
+}
+
+/* Hover effect */
+    .header a:hover {
+    color: #b03646; /* Changes color on hover */
+}
+        
+        .solid-line {
+    border: none;
+    height: 2px;
+    background-color: #333; /* Customize color */
+    margin-top: 0;
+        }
+        .rectangles {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px; /* Adds space between the rectangles */
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .rectangle {
+      width: 300px;
+      height: 450px;
+      padding: 10px;
+      background-color: #d5d5de;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 100px;
+      
+    }
+
+    .rectangle h3 {
+      margin: 10px 0 5px 0; /* Space between header and paragraph */
+      font-size: 20px;
+    }
+
+    .rectangle p {
+      margin: 0; /* No margin below the paragraph */
+      font-size: 16px;
+
+    }
+    .link-button {
+display: inline-block;
+padding: 15px 20px;
+background-color: #cfcfe7;
+color: #070606;
+text-decoration: none;
+border-radius: 5px;
+width: 50px;
+height: 20px;
+border: 2px solid #000;
+font-weight: bold;
+transition: background-color 0.1s ease;
+text-align: center;
+
+    }
+.link-button:hover {
+background-color: #c846aa;
+color: #f8f4f4;
+}
+        
+    </style>
+</head>
+<body style="background-color: #f5dee1;">
+<!--Header section-->
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="Education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="follow me.html">Follow Me</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="https://www.linkedin.com/in/sruthi-srikantan-32a865214/" target="_blank">LinkedIn</a>
+    </div>
+    <hr class="solid-line">
+<!--projects section-->
+   <h1 style="font-size:35px;  text-align:center;">Projects</h1>
+    
+    <div class="rectangles">
+      <div class="rectangle">
+        <h3 style="text-align:center; ">Climate Variability on Crop Yield
+        </h3>
+        <p style="text-align:center;">Agriculture makes up a large portion of Mali and Niger's economy. In this project we cleaned 13 data sets using R and explored different variables' effect on crop yield. Additionally, we created predictive models to explore this relationship.
+
+            <br> </br> Skills: R Markdown, Tidyverse, Dplyr, ggplot, Logistic regression, Random Forrest, K nearest neighbors<br></br>
+            
+            </p>
+            <a href="https://github.com/SruthiSrikantan/Climate-Variability-on-Crop-Yield/blob/main/Climate%20Variability%20on%20Crop%20Yield%20/final_project/Stat_project.qmd" class="link-button" target="_blank">Link</a>
+
+      </div>
+      <div class="rectangle">
+        <h3 style="text-align:center;">Water Potability Project
+        </h3>
+        <p style="text-align:center;">Our water systems are contaminated by pollutants, making access to clean drinking water difficult. This project explores a binary data set for water potability based on different concentrations of pollutants. Additionally, we fit a linear regression and decision trees and assessed model performance.
+
+            <br></br>Skills: R Markdown, ggplot, Linear regression, Random Forrest, XGboost<br></br></p>
+            <a href="https://github.com/SruthiSrikantan/Projects/blob/main/Water%20Potability/Full%20results%20and%20implementation.pdf" class="link-button" target="_blank">Link</a>
+
+      </div>
+      <div class="rectangle">
+        <h3 style="text-align:center;">Netflix Tableau Dashboard</h3>
+        <p style="text-align:center;">Netflix is a globally used streaming platform, generating millions in revenue.. In this project we used Tableau to create different data visuals assessing revenue based on different variables.. Working in a group of 4, I focused on monthly revenue in South America.
+
+            <br></br>Skills: Tableau, Stacked bar chart, Donut chart, Communication, Presentation<br></br></p>
+            <a href="https://public.tableau.com/app/profile/sruthi.srikantan/viz/Sruthi_Netflixproject1/Dashboard2" class="link-button" target="_blank">Link</a>
+
+      </div>
+      
+    </div>
+  
+  <div class="rectangles">
+    <div class="rectangle">
+      <h3>Honda Vehicle Sales</h3>
+      <p style="text-align:center;">In this project we analyzed a Honda sales dataset from Kaggle. My group was able to use JMP to explore the data, draw correlations. and create a few predictive models.
+
+        <br></br>Skills: JMP, PCA, Logistic regression, Random Forrest, and K nearest neighbors<br></br></p>
+        <a href="https://public.tableau.com/app/profile/sruthi.srikantan/viz/HondaVehicleSales/Dashboard1" class="link-button" target="_blank">Link</a>
+
+    </div>
+    <div class="rectangle">
+      <h3 style="text-align:center;">Assessing Neonatal Jaundice Cases</h3>
+      <p style="text-align:center;">Researchers identified a potential linked between UTI and jaundice in neonatal infants. In this project I used the original paper and its data to recreate the statistical tests used to see what results I will obtain.
+
+        <br></br>Skills: R Markdown, Chi-square test, Fisher's exact test<br></br></p>
+        <a href="https://github.com/SruthiSrikantan/Projects/tree/main/Srikantan-Sruthi-Biostat%20Project-Files" class="link-button" target="_blank">Link</a>
+
+    </div>
+    <div class="rectangle">
+      <h3>Tableau Bank Data</h3>
+      <p style="text-align:center;">In this project I worked in a group of 2 to re engineer a existing dashboard with new bank data. I created a bar graph which examines the relationship between Age and number of records at the bank. Additionally, I created a toggle feature which bins different age ranges.
+
+        <br></br>Skills: Tableau, Communication, Presentation<br></br></p>
+        <a href="https://public.tableau.com/app/profile/sruthi.srikantan/viz/TableauBankDataproject/Sheet2" class="link-button" target="_blank">Link</a>
+
+    </div>
+  </div> 
+</body>
+</html>

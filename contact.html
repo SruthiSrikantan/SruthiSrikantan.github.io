@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+        }
+        .header {
+    display: flex;
+    justify-content: center;  /* Center all the links */
+    align-items: center;      /* Align items vertically */
+    background-color: #f5dee1; /* Light background for header */
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+}
+
+/* Style each link */
+    .header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    padding: 14px 20px; /* Adds some padding around the text */
+    transition: color 0.3s;
+}
+
+/* Add space between links */
+    .header a:not(:last-child) {
+    margin-right: 40px; /* Space between links */
+}
+
+/* Hover effect */
+    .header a:hover {
+    color: #b03646; /* Changes color on hover */
+}
+        
+        .solid-line {
+    border: none;
+    height: 2px;
+    background-color: #333; /* Customize color */
+    margin-top: 0;
+        }​
+    
+    a img {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+.contact{
+    display: flex;
+      justify-content: center;  /* Centers horizontally */
+      align-items: center;    
+
+}
+
+    
+    </style>
+    
+  
+</head>
+<body style="background-color: #f5dee1;">
+  <div class="header">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="Education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="follow me.html">Follow Me</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="https://www.linkedin.com/in/sruthi-srikantan-32a865214/" target="_blank">LinkedIn</a>
+  </div>
+<hr class="solid-line">
+
+  <!-- Google Form iframe embed -->
+  <div class="contact">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFiKLip7sEuUlczvnhLeR9xtmwzKPLxvfB7Iban0T5breHiA/viewform?embedded=true" width="1000" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  
+</div>
+</body>
+</html>
